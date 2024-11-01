@@ -72,5 +72,5 @@ def main(file_path):
         
 
 if __name__ == "__main__":
-    file_path = input("Enter the path to the YAML configuration file: " ) or "prompt.yaml"
+    file_path = input("Press Enter to use promt.yaml from current directory | Enter the path to the YAML configuration file: " ) or "prompt.yaml"
     main(file_path)
